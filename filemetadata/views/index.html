@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>API PROJECT :FILE META DATA MICROSERVICE</h2>
+    
+        <h3>USAGE: </h3>
+        <p>
+            please upload a FILE...
+        </p>
+
+        <div class="view">
+            <h4 class="output"></h4>
+            <form enctype="multipart/form-data" action="/api/fileanalyse" method="post">
+                <input id="inputfield" type="file" name="upfile">
+                <input type="submit" value="Upload" id="id">
+
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            by <a href="#">SBS</a>
+        </p>
+    </div>
+</body>
+</html>
